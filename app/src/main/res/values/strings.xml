@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">multicaster</string>
+    <string name="create_new_message">create new message</string>
+    <string name="create">send Message</string>
+</resources>
