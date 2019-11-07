@@ -18,7 +18,6 @@ class MessageActivity : AppCompatActivity() {
     // dataBinding {
     //        enabled = true
     //    }
-    // https://medium.com/@temidjoy/android-jetpack-empower-your-ui-with-android-data-binding-94a657cb6be1
     //
 
     private lateinit var binding: ActivityMainBinding

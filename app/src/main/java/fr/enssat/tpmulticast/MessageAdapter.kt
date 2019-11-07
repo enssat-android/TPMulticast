@@ -9,13 +9,13 @@ import androidx.recyclerview.widget.RecyclerView
 
 
 class MessageViewHolder(val view: View): RecyclerView.ViewHolder(view) {
-    val roomNameView = view.findViewById<TextView>(R.id.msg)
+    val msgView = view.findViewById<TextView>(R.id.msg)
 
     fun setMessage(msg: String, listener: (String) -> Unit) {
-        roomNameView.text = msg
-        roomNameView.setOnClickListener { view ->
+        msgView.text = msg
+        msgView.setOnClickListener { view ->
             Log.d("DEBUG", "onItemClick")
-            listener(msg)
+            //listener(msg)
         }
     }
 }
